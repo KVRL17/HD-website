@@ -133,6 +133,10 @@ h6,
     transition: .5s;
 }
 
+.navbarimages{
+    width: 50px;
+}
+
 @media (max-width: 991.98px) {
     .navbar .navbar-nav .nav-link {
         margin-right: 0;
@@ -163,6 +167,12 @@ h6,
     }
 }
 
+@media (min-width: 448px) {
+    .navbarimage {
+        width: 50px;
+    }
+}
+
 /*** Header ***/
 .owl-carousel-inner {
     position: absolute;
@@ -181,7 +191,7 @@ h6,
         min-height: 500px;
     }
 
-    .header-carousel .owl-carousel-item img {
+    .header-carousel .owl-carousel-item video {
         position: absolute;
         width: 100%;
         height: 100%;
