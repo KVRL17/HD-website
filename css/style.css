@@ -190,6 +190,22 @@ p {
     background: rgba(0, 0, 0, .5);
 }
 
+.header-carousel .owl-carousel-item {
+    position: relative;
+    min-height: 500px;
+}
+
+.header-carousel .owl-carousel-item video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.header-carousel .owl-carousel-item p {
+    font-size: 16px !important;
+}
+
 @media (max-width: 768px) {
     .header-carousel .owl-carousel-item {
         position: relative;
@@ -234,7 +250,7 @@ p {
     height: 60px;
 }
 
-.header-carousel .owl-dots .owl-dot img {
+.header-carousel .owl-dots .owl-dot video {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -244,7 +260,7 @@ p {
     opacity: .3;
 }
 
-.header-carousel .owl-dots .owl-dot.active img {
+.header-carousel .owl-dots .owl-dot.active video {
     opacity: 1;
 }
 
